@@ -1,6 +1,6 @@
 const CSS_PATTERN = /\.css$/i;
 const JS_PATTERN = /\.js$/i;
-const CDN_ROOT = '//ooneibeku.bkt.clouddn.com';
+const CDN_ROOT = '//jsdelivr.xieke.org';
 
 export default function (collection, groupLinks = true) {
 	let links = { js: [], css: [], other: [] };
